@@ -1,4 +1,8 @@
-# What is promisses?
+# Promisses Async Await
+
+![Promisses vs Async Await](promissesImage.png)
+
+## What is promisses?
 execute command asynchronously
 
 Promises have 3 states:
