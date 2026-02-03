@@ -28,3 +28,7 @@ Promises have 3 states:
 ### PromisseAll
 - It is a method that receives multiple Promises and returns a single Promise
 - only resolves when ALL Promises resolve
+
+## Promise.allSettled()
+- It receives an array of Promises and waits for all of them to complete, regardless of success or failure.
+- return all promisses
