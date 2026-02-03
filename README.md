@@ -5,6 +5,19 @@
 ## What is promisses?
 execute command asynchronously
 
+```javascript
+async function searchData() {
+  try {
+    const response = await fetch('/api')
+    const data = await res.json()
+    console.log(data)
+  } catch (err) {
+    console.error(err)
+  }
+}
+
+```
+
 Promises have 3 states:
 - Pending: when the operation is not yet complete
 - Fulfilled: when the operation finished successfully and returned a value
