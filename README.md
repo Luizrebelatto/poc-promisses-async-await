@@ -10,6 +10,7 @@ Promises have 3 states:
 - Fulfilled: when the operation finished successfully and returned a value
 - Rejected: when the operation failed and returned an error
 
+<img width="755" height="291" alt="Screenshot 2026-02-03 at 19 48 03" src="https://github.com/user-attachments/assets/5336bf2a-7bdb-49c1-8972-858a00122327" />
 
 ### PromisseAll
 - It is a method that receives multiple Promises and returns a single Promise
