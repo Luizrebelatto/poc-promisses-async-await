@@ -32,3 +32,7 @@ Promises have 3 states:
 ## Promise.allSettled()
 - It receives an array of Promises and waits for all of them to complete, regardless of success or failure.
 - return all promisses
+
+## Promisse.Race()
+- All Promisses running but the first win
+- Even if the others continue racing, the outcome of the race has already been decided
