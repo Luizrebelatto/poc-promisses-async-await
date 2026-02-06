@@ -50,3 +50,6 @@ const { promise, resolve, reject } = Promise.withResolvers();
   - promise
   - resolve
   - reject
+
+### Promise.Resolve()
+- return a promise already solved
