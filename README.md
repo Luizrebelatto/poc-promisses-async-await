@@ -1,8 +1,8 @@
-# Promisses Async Await
+# Promises Async Await
 
-![Promisses vs Async Await](promissesImage.png)
+![Promises vs Async Await](promiseImage.png)
 
-## What is promisses?
+## What is promises?
 execute command asynchronously
 
 ```javascript
@@ -15,7 +15,6 @@ async function searchData() {
     console.error(err)
   }
 }
-
 ```
 
 Promises have 3 states:
@@ -25,19 +24,19 @@ Promises have 3 states:
 
 <img width="755" height="291" alt="Screenshot 2026-02-03 at 19 48 03" src="https://github.com/user-attachments/assets/5336bf2a-7bdb-49c1-8972-858a00122327" />
 
-### PromisseAll
+### PromiseAll
 - It is a method that receives multiple Promises and returns a single Promise
 - only resolves when ALL Promises resolve
 
 ### Promise.allSettled()
 - It receives an array of Promises and waits for all of them to complete, regardless of success or failure.
-- return all promisses
+- return all promises
 
-### Promisse.Race()
-- All Promisses running but the first win
+### Promise.Race()
+- All Promises running but the first win
 - Even if the others continue racing, the outcome of the race has already been decided
 
-### Promisse Try
+### Promise Try
 - Run function and always return a promisse
 - its not by default JS
 - execute third-party code without breaking the flow
