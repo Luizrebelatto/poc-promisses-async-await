@@ -29,10 +29,24 @@ Promises have 3 states:
 - It is a method that receives multiple Promises and returns a single Promise
 - only resolves when ALL Promises resolve
 
-## Promise.allSettled()
+### Promise.allSettled()
 - It receives an array of Promises and waits for all of them to complete, regardless of success or failure.
 - return all promisses
 
-## Promisse.Race()
+### Promisse.Race()
 - All Promisses running but the first win
 - Even if the others continue racing, the outcome of the race has already been decided
+
+### Promisse Try
+- Run function and always return a promisse
+- its not by default JS
+- execute third-party code without breaking the flow
+
+### Promise.withResolvers()
+```javascript
+const { promise, resolve, reject } = Promise.withResolvers();
+```
+- create a promisse with methods
+  - promise
+  - resolve
+  - reject
